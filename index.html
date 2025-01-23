@@ -104,7 +104,7 @@
         const pbixFiles = data.filter(item => item.type === 'file' && item.name.toLowerCase().endsWith('.pbix'));
         
         if (pbixFiles.length === 0) {
-          filesContainer.innerHTML = '<p>Nenhum arquivo .pbix encontrado no repositório.</p>';
+          filesContainer.innerHTML = '<p>Nenhum arquivo .pbix encontrado no repositório</p>';
           return;
         }
 
